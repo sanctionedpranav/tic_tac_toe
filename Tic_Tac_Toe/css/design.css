@@ -20,3 +20,8 @@
 .body {
   background-color: rgb(174, 168, 192);
 }
+
+.size:hover{
+    background-color: lightskyblue;
+    border-radius: 100px;
+}
