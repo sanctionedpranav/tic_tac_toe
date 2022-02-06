@@ -20,14 +20,14 @@ const isSame = (first, second, third) =>
 function isGameOver() {
 
     // Rows
-  compareThree(buttons[0], buttons[1], buttons[2]) ||
+  return compareThree(buttons[0], buttons[1], buttons[2]) ||
     compareThree(buttons[3], buttons[4], buttons[5]) ||
-    compareThree(buttons[6], buttons[7], buttons[8]);
+    compareThree(buttons[6], buttons[7], buttons[8]) ||
 
     //Columns
     compareThree(buttons[0], buttons[3], buttons[6]) ||
       compareThree(buttons[1], buttons[4], buttons[7]) ||
-      compareThree(buttons[2], buttons[5], buttons[8]);
+      compareThree(buttons[2], buttons[5], buttons[8]) ||
 
       //Diagonals
       compareThree(buttons[0], buttons[4], buttons[8]) ||
