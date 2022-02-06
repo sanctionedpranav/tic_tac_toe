@@ -43,14 +43,6 @@ function compareThree(first, second, third) {
   return false;
 }
 
-function reset(){
-    let buttons = document.querySelectorAll('button');
-    buttons.forEach(button=>button.innerText = '');
-    flag = true;
-    count = 0;  
-}
-
-
 
 let flag = true;
 var count = 0;
